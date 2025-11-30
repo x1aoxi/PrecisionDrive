@@ -165,6 +165,11 @@ void MotorApp_CircleControl_SetTarget(uint8_t circles);
 
 ## 版本
 
+- v2.3 (2025-11-30) - 仓库清理版
+  - 添加 .gitignore 排除编译产物
+  - 移除 LVGL 库和冗余工程目录
+  - 仓库体积大幅减小
+
 - v2.2 (2025-11-29) - 双电机支持版
   - 添加条件编译支持单/双电机模式
   - 左电机完全独立可选
